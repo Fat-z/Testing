@@ -1,0 +1,43 @@
+!SESSION 2013-07-02 16:10:47.905 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-02 16:10:54.246
+!MESSAGE NLS unused message: ADAPTOR_DIRECTORY_REMOVE_EXCEPTION in: org.eclipse.osgi.internal.baseadaptor.ExternalMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-02 16:10:54.247
+!MESSAGE NLS unused message: ADAPTOR_ERROR_GETTING_MANIFEST in: org.eclipse.osgi.internal.baseadaptor.ExternalMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-02 16:10:54.274
+!MESSAGE NLS unused message: ADAPTOR_DATA_AREA_NOT_SET in: org.eclipse.osgi.internal.baseadaptor.ExternalMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-02 16:10:54.274
+!MESSAGE NLS unused message: BUNDLE_CLASSPATH_PROPERTIES_ERROR in: org.eclipse.osgi.internal.baseadaptor.ExternalMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-02 16:11:59.337
+!MESSAGE NLS unused message: TextEditorPreferencePage_colorsAndFonts_link_tooltip in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-02 16:11:59.382
+!MESSAGE NLS unused message: TextEditorPreferencePage_overwriteMode in: org.eclipse.ui.internal.editors.text.TextEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-02 16:13:51.691
+!MESSAGE NLS unused message: FileImport_createComplete in: org.eclipse.ui.internal.wizards.datatransfer.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-02 16:13:51.692
+!MESSAGE NLS unused message: FileImport_createSelectedFolders in: org.eclipse.ui.internal.wizards.datatransfer.messages
+
+!ENTRY com.aptana.terminal 1 0 2013-07-02 16:18:22.643
+!MESSAGE Starting terminal process failed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Shell executable could not be found.
+	at com.aptana.core.ShellExecutable.getPath(ShellExecutable.java:113)
+	at com.aptana.terminal.internal.configurations.WindowsMingwConfiguration.getCommandLine(WindowsMingwConfiguration.java:40)
+	at com.aptana.terminal.internal.ProcessLauncher.launch(ProcessLauncher.java:38)
+	at com.aptana.terminal.connector.LocalTerminalConnector.startProcess(LocalTerminalConnector.java:220)
+	at com.aptana.terminal.connector.LocalTerminalConnector.access$0(LocalTerminalConnector.java:208)
+	at com.aptana.terminal.connector.LocalTerminalConnector$1.run(LocalTerminalConnector.java:102)
+!SUBENTRY 1 com.aptana.core 4 0 2013-07-02 16:18:22.644
+!MESSAGE Shell executable could not be found.
